@@ -4,3 +4,9 @@
     build:
       context: .
       dockerfile: CSharpLabs/Dockerfile
+
+  consoleclient:
+    image: consoleclient
+    build:
+      context: .
+      dockerfile: ConsoleClient/Dockerfile
