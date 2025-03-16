@@ -1,0 +1,6 @@
+@CSharpLabs_HostAddress = http://localhost:8080
+
+GET {{CSharpLabs_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
